@@ -50,7 +50,7 @@ export default {
                     <div class="three-dee tehnomart">
                         <!-- <img src="/tehnomart.png" alt="Your Image"> -->
                     </div>
-                    <!-- <img class="portfolio__item--img" src='/tehnomart.png' alt="Техномарт"> -->
+                    <!-- <img class="portfolio__item--img" src='../tehnomart.png' alt="Техномарт"> -->
                     <!-- <p class="portfolio__item__desc">В проекте Техномарт предоставлена вёрстка из двух страниц, в проекте использовались HTML5, CSS немного JS, мой первый проект в программировании, успешно защищен в HTML Academy</p> -->
                 </a>
             </li>
@@ -60,7 +60,7 @@ export default {
                     <div class="three-dee pink">
                         <!-- <img src="/tehnomart.png" alt="Your Image"> -->
                     </div>
-                    <!-- <img class="portfolio__item--img" src="/pink.png" alt="Pink"> -->
+                    <!-- <img class="portfolio__item--img" src="../pink.png" alt="Pink"> -->
                     <!-- <p class="portfolio__item__desc">В проекте Pink предоставлена адаптивная вёрстка из трёх страниц, в проекте использовались HTML5, CSS, LESS, немного JS, мой первый второй в программировании, успешно защищен в HTML Academy</p> -->
                 </a>
             </li>
@@ -70,7 +70,7 @@ export default {
                     <div class="three-dee hugge">
                         <!-- <img src="/tehnomart.png" alt="Your Image"> -->
                     </div>
-                    <!-- <img class="portfolio__item--img" src="/hugge.png" alt="hugge"> -->
+                    <!-- <img class="portfolio__item--img" src="../hugge.png" alt="hugge"> -->
                     <!-- <p class="portfolio__item__desc">Лендинг на тему "биоразлагаемые упаковки для продуктов", созданный с помощью библиотеки ReactJS</p> -->
                 </a>
             </li>
@@ -90,7 +90,7 @@ export default {
                     <div class="three-dee weather">
                         <!-- <img src="/tehnomart.png" alt="Your Image"> -->
                     </div>
-                    <!-- <img class="portfolio__item--img" src="/weather.png" alt="Pink"> -->
+                    <!-- <img class="portfolio__item--img" src="../weather.png" alt="Pink"> -->
                     <!-- <p class="portfolio__item__desc">Приложение для Просмотра погоды в любом городе по поиску написанный на языке Java Script с использованием фреймворка VueJS, использованна библиотека Axios для подключения к стороннему API для отправки запроса о погоде по запросу пользователя</p> -->
                 </a>
             </li>
@@ -100,7 +100,7 @@ export default {
                     <div class="three-dee blog">
                         <!-- <img src="/tehnomart.png" alt="Your Image"> -->
                     </div>
-                    <!-- <img class="portfolio__item--img" src="/blog.png" alt="Blog"> -->
+                    <!-- <img class="portfolio__item--img" src="../blog.png" alt="Blog"> -->
                     <!-- <p class="portfolio__item__desc">Приложение типа блог, написанный на языке Java Script с использованием фреймворка VueJS, реализовано добавление нового поста, удаление, сортировка, поиск по постам, навигация по страницам (страници сделаны просто для примера), так же использованна анимация от VueJS</p> -->
                 </a>
             </li>
