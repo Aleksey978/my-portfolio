@@ -452,32 +452,32 @@ background: linear-gradient(0deg, rgba(7,30,61,0.4990371148459384) 0%, rgba(7,30
 }
 
 .tehnomart {
-    background: url(tehnomart.png), rgb(7,30,61);
+    background: url(../tehnomart.png), rgb(7,30,61);
     background-blend-mode: lighten;
     background-size: cover;
 }
 .pink {
-    background: url(pink.png), rgb(7,30,61);
+    background: url(../pink.png), rgb(7,30,61);
     background-blend-mode: lighten;
     background-size: cover;
 }
 .hugge {
-    background: url(hugge.png), rgb(7,30,61);
+    background: url(../hugge.png), rgb(7,30,61);
     background-blend-mode: lighten;
     background-size: cover;
 }
 .calculator {
-    background: url(calculator.png), rgb(7,30,61);
+    background: url(../calculator.png), rgb(7,30,61);
     background-blend-mode: lighten;
     background-size: cover;
 }
 .weather {
-    background: url(weather.png), rgb(7,30,61);
+    background: url(../weather.png), rgb(7,30,61);
     background-blend-mode: lighten;
     background-size: cover;
 }
 .blog {
-    background: url(blog.png), rgb(7,30,61);
+    background: url(../blog.png), rgb(7,30,61);
     background-blend-mode: lighten;
     background-size: cover;
 }
