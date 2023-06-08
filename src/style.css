@@ -2,12 +2,10 @@
   font-family: 'Exo 2', sans-serif;
   line-height: 1.5;
   font-weight: 500;
-  padding: 24px 136px;
-
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background-color: #071E3D;
-
+  
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -19,4 +17,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+#app {
+  overflow: hidden;
 }

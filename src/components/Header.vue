@@ -1,9 +1,10 @@
 <script>
 import MyButton from './UI/MyButton.vue';
 import MyModal from './UI/MyModal.vue';
+import Status from './UI/Status.vue';
 
 export default {
-    components: { MyButton, MyModal },
+    components: { MyButton, MyModal, Status },
     data() {
         return {
             dialoVisible: false,
@@ -22,7 +23,10 @@ export default {
 
 <template>
     <div class="header">
-        <img src="/logo.svg" alt="logo">
+        <div class="header_logo">
+            <img src="/logo.svg" alt="logo">
+            <MyButton class="status">свободен</MyButton>
+        </div>
         <MyButton v-if="!dialoVisible" @click="showDialog">СВЯЗАТЬСЯ</MyButton>
         <button v-else @click="closeDialog" class="btn__close"><svg class="svg" width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M0.499998 18C0.499999 8.33502 8.33502 0.500001 18 0.500002C27.665 0.500003 35.5 8.33502 35.5 18C35.5 27.665 27.665 35.5 18 35.5C8.33501 35.5 0.499997 27.665 0.499998 18Z" stroke="#21E6C1"/>
@@ -37,6 +41,25 @@ export default {
 .header {
     display: flex;
     justify-content: space-between;
+    margin-top: 11px;
+}
+.status {
+    position: absolute !important;
+    right: -71px;
+    font-size: 10px !important;
+    top: -3px;
+    padding: 2px 4px !important; 
+}
+@media (max-width: 704px) {
+    .status {
+    right: 88px;
+    top: 32px;
+
+}
+}
+.header_logo {
+    display: flex;
+    position: relative;
 }
 .btn__close {
     background: transparent;

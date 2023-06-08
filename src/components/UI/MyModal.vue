@@ -53,6 +53,13 @@ export default {
     height: 100%;
     background-color: #071E3D;
     z-index: 10;
+    flex-wrap: wrap;
+}
+@media (max-width: 1200px) {
+    .modal {
+        padding: 60px  136px;
+        justify-content: center;
+    }
 }
 .form {
     display: flex;
@@ -60,6 +67,12 @@ export default {
     max-width: 417px;
     flex-direction: column;
     margin-right: 113px;
+}
+@media (max-width: 1200px) {
+    .form {
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 .form label{
     color: #21E6C1;
@@ -81,6 +94,12 @@ export default {
     font-size: 40px;
     margin-bottom: 72px;
 }
+@media (max-width: 768px) {
+    .form__title {
+        font-size: 24px;
+        margin-bottom: 32px;
+    }
+}
 .form__btn {
     width: 100px;;
 }
@@ -94,10 +113,20 @@ export default {
     font-size: 18px;
     padding-left: 12px;
 }
+@media (max-width: 768px) {
+    #message {
+        margin-bottom: 8px;
+    }
+}
 .feetback__item {
     list-style: none;
     display: flex;
     margin-bottom: 24px;
+}
+@media (max-width: 768px) {
+    .feetback__item {
+        flex-direction: column;
+    }
 }
 .feetback__item p{
     color: #21E6C1;
