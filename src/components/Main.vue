@@ -114,7 +114,7 @@ export default {
     position: relative;
     font-size: 54px;
     font-weight: normal;
-    max-width: 820px;
+    max-width: 920px;
     animation: glitch 1s linear infinite;
 }
 
