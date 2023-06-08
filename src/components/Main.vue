@@ -138,7 +138,7 @@ export default {
     content: attr(data-text);
     top: 2px;
     left: 0px;
-    width: 820px;
+    width: 920px;
     background-color: rgb(7,30,61);
     color: #ffffff;
     overflow: hidden
