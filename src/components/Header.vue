@@ -41,7 +41,7 @@ export default {
 .header {
     display: flex;
     justify-content: space-between;
-    margin-top: 11px;
+    margin-top: 40px;
 }
 .status {
     position: absolute !important;
